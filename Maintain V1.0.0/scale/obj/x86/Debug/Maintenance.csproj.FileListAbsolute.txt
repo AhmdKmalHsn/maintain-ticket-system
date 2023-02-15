@@ -1,0 +1,16 @@
+G:\Projects\Maintain V1.0.0\scale\bin\Debug\Database.mdf
+G:\Projects\Maintain V1.0.0\scale\bin\Debug\Database_log.ldf
+G:\Projects\Maintain V1.0.0\scale\bin\Debug\scale.exe.config
+G:\Projects\Maintain V1.0.0\scale\bin\Debug\scale.exe
+G:\Projects\Maintain V1.0.0\scale\bin\Debug\scale.pdb
+G:\Projects\Maintain V1.0.0\scale\obj\x86\Debug\Maintenance.csproj.ResolveComReference.cache
+G:\Projects\Maintain V1.0.0\scale\obj\x86\Debug\scale.Form1.resources
+G:\Projects\Maintain V1.0.0\scale\obj\x86\Debug\scale.Form4.resources
+G:\Projects\Maintain V1.0.0\scale\obj\x86\Debug\scale.Form5.resources
+G:\Projects\Maintain V1.0.0\scale\obj\x86\Debug\scale.Properties.Resources.resources
+G:\Projects\Maintain V1.0.0\scale\obj\x86\Debug\Maintenance.csproj.GenerateResource.Cache
+G:\Projects\Maintain V1.0.0\scale\obj\x86\Debug\scale.exe
+G:\Projects\Maintain V1.0.0\scale\obj\x86\Debug\scale.pdb
+G:\Projects\Maintain V1.0.0\scale\obj\x86\Debug\scale.setting.resources
+G:\Projects\Maintain V1.0.0\scale\obj\x86\Debug\scale.Form2.resources
+G:\Projects\Maintain V1.0.0\scale\obj\x86\Debug\scale.Form0.resources

@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="MYDBDataSet3" targetNamespace="http://tempuri.org/MYDBDataSet3.xsd" xmlns:mstns="http://tempuri.org/MYDBDataSet3.xsd" xmlns="http://tempuri.org/MYDBDataSet3.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="MYDBConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="MYDBConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.scale.Properties.Settings.GlobalReference.Default.MYDBConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="TicketViewTableAdapter" GeneratorDataComponentClassName="TicketViewTableAdapter" Name="TicketView" UserDataComponentName="TicketViewTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="MYDBConnectionString (Settings)" DbObjectName="MYDB.dbo.TicketView" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT Id, [حالة الطلب], [تاريخ العطل], القسم, [نوع الماكينة/ المرفق], [نوع العطل], [العمل المطلوب], [وقت التوقف], [وقت التشغيل], [نوع العامل], [عدد قطع الغيار], [نوع قطع الغيار], ملاحظات FROM dbo.TicketView</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Id" DataSetColumn="Id" />
+              <Mapping SourceColumn="حالة الطلب" DataSetColumn="حالة الطلب" />
+              <Mapping SourceColumn="تاريخ العطل" DataSetColumn="تاريخ العطل" />
+              <Mapping SourceColumn="القسم" DataSetColumn="القسم" />
+              <Mapping SourceColumn="نوع الماكينة/ المرفق" DataSetColumn="نوع الماكينة/ المرفق" />
+              <Mapping SourceColumn="نوع العطل" DataSetColumn="نوع العطل" />
+              <Mapping SourceColumn="العمل المطلوب" DataSetColumn="العمل المطلوب" />
+              <Mapping SourceColumn="وقت التوقف" DataSetColumn="وقت التوقف" />
+              <Mapping SourceColumn="وقت التشغيل" DataSetColumn="وقت التشغيل" />
+              <Mapping SourceColumn="نوع العامل" DataSetColumn="نوع العامل" />
+              <Mapping SourceColumn="عدد قطع الغيار" DataSetColumn="عدد قطع الغيار" />
+              <Mapping SourceColumn="نوع قطع الغيار" DataSetColumn="نوع قطع الغيار" />
+              <Mapping SourceColumn="ملاحظات" DataSetColumn="ملاحظات" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="MYDBDataSet3" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="MYDBDataSet3" msprop:Generator_UserDSName="MYDBDataSet3">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="TicketView" msprop:Generator_TableClassName="TicketViewDataTable" msprop:Generator_TableVarName="tableTicketView" msprop:Generator_TablePropName="TicketView" msprop:Generator_RowDeletingName="TicketViewRowDeleting" msprop:Generator_RowChangingName="TicketViewRowChanging" msprop:Generator_RowEvHandlerName="TicketViewRowChangeEventHandler" msprop:Generator_RowDeletedName="TicketViewRowDeleted" msprop:Generator_UserTableName="TicketView" msprop:Generator_RowChangedName="TicketViewRowChanged" msprop:Generator_RowEvArgName="TicketViewRowChangeEvent" msprop:Generator_RowClassName="TicketViewRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Id" msprop:Generator_ColumnVarNameInTable="columnId" msprop:Generator_ColumnPropNameInRow="Id" msprop:Generator_ColumnPropNameInTable="IdColumn" msprop:Generator_UserColumnName="Id" type="xs:int" />
+              <xs:element name="حالة_x0020_الطلب" msprop:Generator_ColumnVarNameInTable="columnحالة_الطلب" msprop:Generator_ColumnPropNameInRow="حالة_الطلب" msprop:Generator_ColumnPropNameInTable="حالة_الطلبColumn" msprop:Generator_UserColumnName="حالة الطلب" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="تاريخ_x0020_العطل" msprop:Generator_ColumnVarNameInTable="columnتاريخ_العطل" msprop:Generator_ColumnPropNameInRow="تاريخ_العطل" msprop:Generator_ColumnPropNameInTable="تاريخ_العطلColumn" msprop:Generator_UserColumnName="تاريخ العطل" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="القسم" msprop:Generator_ColumnVarNameInTable="columnالقسم" msprop:Generator_ColumnPropNameInRow="القسم" msprop:Generator_ColumnPropNameInTable="القسمColumn" msprop:Generator_UserColumnName="القسم" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="نوع_x0020_الماكينة_x002F__x0020_المرفق" msprop:Generator_ColumnVarNameInTable="_columnنوع_الماكينة__المرفق" msprop:Generator_ColumnPropNameInRow="_نوع_الماكينة__المرفق" msprop:Generator_ColumnPropNameInTable="_نوع_الماكينة__المرفقColumn" msprop:Generator_UserColumnName="نوع الماكينة/ المرفق" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="75" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="نوع_x0020_العطل" msprop:Generator_ColumnVarNameInTable="columnنوع_العطل" msprop:Generator_ColumnPropNameInRow="نوع_العطل" msprop:Generator_ColumnPropNameInTable="نوع_العطلColumn" msprop:Generator_UserColumnName="نوع العطل" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="70" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="العمل_x0020_المطلوب" msprop:Generator_ColumnVarNameInTable="columnالعمل_المطلوب" msprop:Generator_ColumnPropNameInRow="العمل_المطلوب" msprop:Generator_ColumnPropNameInTable="العمل_المطلوبColumn" msprop:Generator_UserColumnName="العمل المطلوب" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="وقت_x0020_التوقف" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnوقت_التوقف" msprop:Generator_ColumnPropNameInRow="وقت_التوقف" msprop:Generator_ColumnPropNameInTable="وقت_التوقفColumn" msprop:Generator_UserColumnName="وقت التوقف" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="وقت_x0020_التشغيل" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnوقت_التشغيل" msprop:Generator_ColumnPropNameInRow="وقت_التشغيل" msprop:Generator_ColumnPropNameInTable="وقت_التشغيلColumn" msprop:Generator_UserColumnName="وقت التشغيل" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="نوع_x0020_العامل" msprop:Generator_ColumnVarNameInTable="columnنوع_العامل" msprop:Generator_ColumnPropNameInRow="نوع_العامل" msprop:Generator_ColumnPropNameInTable="نوع_العاملColumn" msprop:Generator_UserColumnName="نوع العامل" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="عدد_x0020_قطع_x0020_الغيار" msprop:Generator_ColumnVarNameInTable="columnعدد_قطع_الغيار" msprop:Generator_ColumnPropNameInRow="عدد_قطع_الغيار" msprop:Generator_ColumnPropNameInTable="عدد_قطع_الغيارColumn" msprop:Generator_UserColumnName="عدد قطع الغيار" type="xs:int" minOccurs="0" />
+              <xs:element name="نوع_x0020_قطع_x0020_الغيار" msprop:Generator_ColumnVarNameInTable="columnنوع_قطع_الغيار" msprop:Generator_ColumnPropNameInRow="نوع_قطع_الغيار" msprop:Generator_ColumnPropNameInTable="نوع_قطع_الغيارColumn" msprop:Generator_UserColumnName="نوع قطع الغيار" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="75" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ملاحظات" msprop:Generator_ColumnVarNameInTable="columnملاحظات" msprop:Generator_ColumnPropNameInRow="ملاحظات" msprop:Generator_ColumnPropNameInTable="ملاحظاتColumn" msprop:Generator_UserColumnName="ملاحظات" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="160" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:TicketView" />
+      <xs:field xpath="mstns:Id" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
